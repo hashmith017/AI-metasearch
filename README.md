@@ -48,13 +48,14 @@ A powerful web application that combines multiple AI models (Gemini and Groq) to
 
 1. Start the FastAPI server:
    ```bash
-   python main.py
+   uvicorn main:app --reload
    ```
 
 2. Open your browser and navigate to:
    ```
    http://127.0.0.1:8000
    ```
+<img width="1097" height="248" alt="image" src="https://github.com/user-attachments/assets/e4bf28ba-f21c-40e8-a37f-9714c1fb851c" />
 
 ## Usage
 
@@ -76,6 +77,8 @@ A powerful web application that combines multiple AI models (Gemini and Groq) to
 4. **Compare Responses**:
    - Toggle the comparison button before asking your question
    - View side-by-side responses from different models
+
+<img width="1919" height="998" alt="image" src="https://github.com/user-attachments/assets/414ee758-dce6-4b44-a11e-1f5671f63b65" />
 
 ## Project Structure
 
@@ -102,6 +105,14 @@ AI-Metasearch/
   - Real-time speech recognition
   - File upload handling
   - Base64 image encoding
+    
+**Example 1:**
+<img width="1431" height="850" alt="image" src="https://github.com/user-attachments/assets/7b02c8b0-8600-45ee-b535-6782f5e6e100" />
+<img width="1410" height="695" alt="image" src="https://github.com/user-attachments/assets/53bb10a7-5657-49b7-a038-c79e4a96765d" />
+
+**Example 2:**
+<img width="1919" height="992" alt="image" src="https://github.com/user-attachments/assets/12199781-e330-44d8-ad4a-d73d0285d9fd" />
+<img width="1397" height="681" alt="image" src="https://github.com/user-attachments/assets/169977f4-4c07-4a2b-ba02-b6103ebc2bf7" />
 
 ## Error Handling
 
@@ -115,3 +126,4 @@ The application includes comprehensive error handling for:
 ## Contributing
 
 Feel free to submit issues and enhancement requests!
+
